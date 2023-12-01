@@ -1,0 +1,19 @@
+.menu-item {
+    display: flex;
+    flex-direction: column;
+
+    &__head {
+        display: flex;
+        flex-direction: row;
+
+        &__icon {
+            display: block;
+            padding: 0 10px;
+            width: 30px;
+            text-align: center;
+        }
+
+        &__label {
+        }
+    }
+}
